@@ -1,0 +1,19 @@
+{
+  "name": "Freedom_Fries",
+  "version": "1.0.0",
+  "description": "Freedom Fries Landing Page",
+  "author": "Kevin van der Poll",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.5",
+    "ant-design-vue": "^1.1.10",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
