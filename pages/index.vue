@@ -25,7 +25,7 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
@@ -40,9 +40,9 @@ export default {
   color: #33658a;
   letter-spacing: 1px;
 
-  @media(max-width:410px){
+  @media (max-width: 410px) {
     letter-spacing: 0px;
-    font-size:70px;
+    font-size: 70px;
   }
 }
 
@@ -54,9 +54,9 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 
-  @media(max-width:410px){
-    font-size:15px;
-    word-spacing:1px;
+  @media (max-width: 410px) {
+    font-size: 15px;
+    word-spacing: 1px;
   }
 }
 </style>
