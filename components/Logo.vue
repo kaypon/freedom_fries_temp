@@ -1,17 +1,12 @@
 <template>
-  <img class="NuxtLogo" src="/sheeple.jpg" alt="Sheeple"/>
+  <img class="NuxtLogo" src="/sheeple.jpg" alt="Sheeple" height="360" />
   <!-- <img class="NuxtLogo" src="/fries.png" alt="Delicious Fries" height="360" /> -->
 </template>
-<style lang="scss">
+<style>
 .NuxtLogo {
-  height:360px;
   animation: 1s appear;
   margin: auto;
   margin-bottom: 30px;
-  
-  @media(max-width:410px){
-    height: 180px;
-  }
 }
 
 @keyframes appear {

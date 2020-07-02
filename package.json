@@ -13,9 +13,7 @@
   "dependencies": {
     "@nuxtjs/component-cache": "^1.1.5",
     "ant-design-vue": "^1.1.10",
-    "node-sass": "^4.14.1",
-    "nuxt": "^2.0.0",
-    "sass-loader": "^9.0.0"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {}
 }
