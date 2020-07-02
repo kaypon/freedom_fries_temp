@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="full">
       <h1 class="title">Freedom Fries</h1>
       <h2
         class="subtitle"
@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style lang="scss">
+.full {
+  width: 100%;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -40,9 +44,9 @@ export default {
   color: #33658a;
   letter-spacing: 1px;
 
-  @media (max-width: 410px) {	
-    letter-spacing: 0px;	
-    font-size: 70px;	
+  @media screen and (max-width: 410px) {
+    letter-spacing: 0px;
+    font-size: 4em;
   }
 }
 
@@ -53,9 +57,9 @@ export default {
   color: #33658a;
   word-spacing: 5px;
   padding-bottom: 15px;
-  @media (max-width: 410px) {
+  @media screen and (max-width: 410px) {
     font-size: 15px;
-    word-spacing: 1px;	
+    word-spacing: 1px;
   }
 }
 </style>

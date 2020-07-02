@@ -9,10 +9,9 @@
   margin: auto;
   margin-bottom: 30px;
 
-  @media(max-width:410px){	
-    // height: 180px;
+  @media screen and (max-width:410px){	
     height:auto;
-    width:90%;
+    width:250px;
   }
 }
 
