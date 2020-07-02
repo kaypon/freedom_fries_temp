@@ -53,7 +53,7 @@
   color: #33658a;
   word-spacing: 5px;
   padding-bottom: 15px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 630px){
     font-size:20px;
     word-spacing: 2px;
   }
@@ -68,6 +68,9 @@
   animation: 1s appear;
   margin: auto;
   margin-bottom: 30px;
+  @media (max-width: 630px){
+    width:75%;
+  }
 }
 
 @keyframes appear {
