@@ -15,7 +15,7 @@
 <style lang="scss">
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,19 +36,25 @@
   color: #33658a;
   letter-spacing: 1px;
 
-  @media screen and (max-width: 410px) {
-    letter-spacing: 0px;
-    font-size: 4em;
+  @media (max-width: 630px) {
+    letter-spacing: 0.5px;
+    font-size: 80px;
   }
 }
 
 .subtitle {
+  margin-left: 15px;
+  margin-right: 15px;
   animation: 1s appear;
   font-weight: 300;
   font-size: 30px;
   color: #33658a;
   word-spacing: 5px;
   padding-bottom: 15px;
+  @media screen and (max-width: 600px){
+    font-size:20px;
+    word-spacing: 2px;
+  }
   @media screen and (max-width: 410px) {
     font-size: 15px;
     word-spacing: 1px;
