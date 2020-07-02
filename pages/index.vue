@@ -27,6 +27,8 @@
 }
 
 .title {
+  margin-left: 5px;
+  margin-right: 5px;
   animation: 1s appear;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
