@@ -20,12 +20,12 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -39,11 +39,6 @@ export default {
   font-size: 120px;
   color: #33658a;
   letter-spacing: 1px;
-
-  @media (max-width: 410px) {
-    letter-spacing: 0px;
-    font-size: 70px;
-  }
 }
 
 .subtitle {
@@ -53,10 +48,9 @@ export default {
   color: #33658a;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
 
-  @media (max-width: 410px) {
-    font-size: 15px;
-    word-spacing: 1px;
-  }
+.links {
+  padding-top: 15px;
 }
 </style>
