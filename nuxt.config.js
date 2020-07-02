@@ -25,7 +25,7 @@ export default {
       { 'property': "og:image:height", content: "225"},
       { 'property': 'og:image:type', content: 'image/jpeg' },
       { 'property': 'og:type', content: 'website' },
-      { 'property': 'twitter:card', content: 'summary' },
+      { 'property': 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter_title', 'property': 'twitter:title', content: 'Freedom Fries' },
       { hid: 'twitter_description', 'property': 'twitter:description', content: 'A company focused on America, Freedom and everything Know-It-All Elitists hate.' },
       { hid: 'twitter_image', 'property': 'twitter:image', content: 'https://jovial-gates-835a17.netlify.app/sheeple.jpg' },
