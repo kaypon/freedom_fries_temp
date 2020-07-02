@@ -2,29 +2,17 @@
   <div class="container">
     <div class="full">
       <h1 class="title">Freedom Fries</h1>
-      <h2
-        class="subtitle"
-      >A company focused on America, Freedom and everything Know-It-All Elitists hate.</h2>
-      <logo />
+      <h2 class="subtitle">A company focused on America, Freedom and everything Know-It-All Elitists hate.</h2>
+      <img class="sheeple" src="/sheeple.jpg" alt="Sheeple" />
       <h2 class="subtitle">Stay tuned for more...</h2>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-export default {
-  components: {
-    Logo
-  }
-};
 </script>
 
 <style lang="scss">
-.full {
-  width: 100%;
-}
-
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -32,6 +20,10 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.full {
+  width: 100%;
 }
 
 .title {
@@ -60,6 +52,22 @@ export default {
   @media screen and (max-width: 410px) {
     font-size: 15px;
     word-spacing: 1px;
+  }
+}
+
+.sheeple {
+  width: 50%;
+  animation: 1s appear;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 </style>
