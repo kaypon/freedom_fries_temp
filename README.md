@@ -1,6 +1,8 @@
 # Freedom Fries
 
-> Freedom Fries Landing Page
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82ce75ac-d45a-485a-a250-8778ed95fec3/deploy-status)](https://app.netlify.com/sites/jovial-gates-835a17/deploys)
+
+Freedom Fries Landing Page
 
 ## Build Setup
 
