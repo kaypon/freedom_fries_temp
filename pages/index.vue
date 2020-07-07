@@ -2,8 +2,8 @@
   <div class="container">
     <div class="full">
       <h1 class="title">Freedom Fries</h1>
-      <h2 class="subtitle">A company focused on America, Freedom and everything Know-It-All Elitists hate.</h2>
-      <img class="sheeple" src="/sheeple.jpg" alt="Sheeple" />
+      <h2 class="subtitle">A company focused on America, Freedom and the New Way to Navigate the News</h2>
+      <img class="squirrel" src="/squirrel.png" alt="squirrel" />
       <h2 class="subtitle">Stay tuned for more...</h2>
     </div>
   </div>
@@ -14,6 +14,7 @@
 
 <style lang="scss">
 .container {
+  animation: 1s appear;
   margin: 0 auto;
   min-height: 95vh;
   display: flex;
@@ -29,7 +30,6 @@
 .title {
   margin-left: 5px;
   margin-right: 5px;
-  animation: 1s appear;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
@@ -47,7 +47,6 @@
 .subtitle {
   margin-left: 15px;
   margin-right: 15px;
-  animation: 1s appear;
   font-weight: 300;
   font-size: 30px;
   color: #33658a;
@@ -63,13 +62,12 @@
   }
 }
 
-.sheeple {
-  width: 50%;
-  animation: 1s appear;
+.squirrel {
+  height: 50vh;
   margin: auto;
   margin-bottom: 30px;
   @media (max-width: 630px){
-    width:75%;
+    height:30vh;
   }
 }
 
